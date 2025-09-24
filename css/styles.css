@@ -1,0 +1,439 @@
+/* Body */
+
+body {
+  background: #f6f6fa;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Reset styles */
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Wrapper */
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main content */
+
+.main-content {
+  padding: 80px 40px 88px 80px;
+  box-sizing: border-box;
+}
+
+/* Sidebar */
+
+.sidebar {
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
+}
+
+.sidebar-content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+/* Contacts */
+
+.contacts-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.contacts-link {
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.contacts-item {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.contacts-container {
+  margin-bottom: 40px;
+}
+
+/* Tech skills */
+
+.tech-skills__container {
+  margin-bottom: 40px;
+}
+
+.tech-skills__title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.tech-skills__list {
+  padding-left: 16px;
+}
+
+.tech-skills__item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Soft skills */
+
+.soft-skills__container {
+  margin-bottom: 40px;
+}
+
+.soft-skills__title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.soft-skills__list {
+  padding-left: 16px;
+}
+
+.soft-skills__item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* My profession */
+
+.my-profession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.my-descr {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my-info {
+  margin-bottom: 40px;
+}
+
+/* My Projects */
+
+.my-projects-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-projects-item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.my-projects-list {
+  padding-left: 16px;
+}
+
+.my-projects-link {
+  color: #005fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.my-projects-item-tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my-projects-container {
+  margin-bottom: 40px;
+}
+
+/* Work experience */
+
+/*.work-experience-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.work-experience-company {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.company-name {
+  color: #6d9bf5;
+}
+
+.work-experience-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.work-experience-period-separator {
+  color: #000;
+}
+
+.work-experience-duties-list {
+  padding-left: 16px;
+}
+
+.work-experience-duties-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.work-experience-container {
+  margin-bottom: 12px;
+}
+
+*/
+
+/* Education */
+
+/*.education-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-place {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/*.education-specialty {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.education-container {
+  margin-top: 40px;
+}*/
+
+/* Studium */
+
+.Studium-Titel {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.Studium-Grundschule,
+.Studium-Oberschule,
+.Studium-Gymnasium,
+.Studium-Fernstudium {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.Grundschule-Name,
+.Oberschule-Name,
+.Gymnasium-Name,
+.Fernstudium-Name {
+  color: #6d9bf5;
+}
+
+.Studium-Dauer {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.Studium-Dauer-Separator {
+  color: #000;
+}
+
+/* Sprachkenntnisse */
+
+.Sprache {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.Kenntnisse {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.work-experience-duties-list {
+  padding-left: 16px;
+}
+
+.work-experience-duties-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.work-experience-container {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px;
+  }
+
+  .main-content {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 250px;
+  }
+
+  .my-cv-foto {
+    width: 250px;
+  }
+
+  .sidebar-content {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+
+  .my-cv-foto {
+    width: 200px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .my-name {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .my-cv-foto {
+    width: 100%;
+  }
+}
